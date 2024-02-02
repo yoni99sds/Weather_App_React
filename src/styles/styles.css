@@ -1,0 +1,55 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+ 
+@media (max-width: 340px) {
+   
+      div{
+        overflow: hidden;
+      }
+      .search
+      {
+        max-width: 99%;
+        width: 20px;
+        justify-content: center;
+      }
+
+  }
+.m
+{
+  border:1px solid;
+  border-radius: 2px;
+  padding:7px;
+}
+.a{
+  margin: 0 0 10px 0;
+}
+.z:hover{
+  background-color:white;
+  border: 1px solid;
+ 
+  color:#1976d2;
+  
+}
+.logo-image {
+  width: 50px; /* Adjust the width to your desired size */
+  height: auto; /* Maintain aspect ratio */
+}
+.css-6hp17o-MuiList-root-MuiMenu-list
+{
+background-color:#1976d2 ;
+color:white;
+}
+li.MuiButtonBase-root:hover
+{
+  background-color: aliceblue;
+  color: #1976d2;
+}
+a.MuiButtonBase-root:hover
+{
+  background-color: aliceblue;
+  color: #1976d2;
+}
+.t{
+  margin: 0 0 0 55rem;
+}

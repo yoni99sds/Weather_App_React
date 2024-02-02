@@ -1,0 +1,150 @@
+
+.horizontal-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top-content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-bottom: 10px;
+    margin-top: -8rem;
+  }
+  
+  .sub-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .weather-info {
+    margin-left: 10px;
+  }
+  .temperature {
+    font-size: 18px;
+    font-weight: bold;
+    color: aliceblue;
+  }
+  
+  .weather-description {
+    font-size: 14px;
+  }
+  .content1{
+    display: flex;
+    align-items: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+  }
+  .icon {
+    font-size: 24px; 
+  }
+  
+  .temperature,
+  .wind,
+  .sunrise,
+  .rain,
+  .sunset {
+    font-size: 18px; 
+  }
+  
+  .label {
+    font-size: 14px; 
+  }
+  .row.row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .row.row1 .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .row.row1 .content .temperature {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .row.row1 .content .wind,
+  .row.row1 .content .sunrise {
+    font-size: 18px;
+  }
+  
+  .row.row1 .content .label {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  .row.row2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .row.row2 .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .row.row2 .content .temperature {
+    font-size: 23px;
+    font-weight: bold;
+  }
+  
+  .row.row2 .content .rain,
+  .row.row2 .content .sunset {
+    font-size: 20px;
+  }
+  
+  .row.row2 .content .label {
+    font-size: 20px;
+    margin-top: 8px;
+  }
+  .about-container {
+    background-color: rgb(0, 97, 194);
+    
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .out-container
+{
+    margin-top: 60px;
+}  .about-container .top-content,
+  .about-container .sub-container,
+  .about-container .weather-info,
+  .about-container .content1,
+  .about-container .content,
+  .about-container .label {
+    color: white;
+  }
+  .divider {
+    border: none;
+    border-top: 1px solid white;
+    width:20%;
+    margin: 100px 0 0 50px;
+    transform: rotate(90deg);
+  }
+h2
+{
+ font-size: 50px;   
+}
+
+.search-inner
+{
+padding:2rem 0 0 42rem;
+ 
+}
