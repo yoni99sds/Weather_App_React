@@ -5,7 +5,7 @@ import './styles/styles.css';
 import backgroundImage from './img/pexels-pixabay-53594.jpg';
 import Footer from './components/footer';
 import Header from './components/header';
-import AboutPage from './components/AboutPage';
+
 import Home from './components/Home';
 import { CircularProgress } from '@mui/material';
 const App = () => {
