@@ -30,17 +30,7 @@ const Header = () => {
 </Typography>
 </Link>
 
-<ul className="flex ml-auto space-x-8">
-  <li>
-    <NavLink
-      to="/about"
-      className="text-white cursor-pointer hover:bg-white hover:border-4 hover:rounded-lg hover:text-blue-900 hover:border-white"
-      activeClassName="text-blue-900"
-    >
-      About
-    </NavLink>
-  </li>
-</ul>
+
 
 
         <div className="md:hidden">
