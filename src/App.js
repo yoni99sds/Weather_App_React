@@ -66,7 +66,7 @@ const App = () => {
                 </div>
               }
             />
-            <Route path="/about" element={<AboutPage />} />
+         
           </Routes>
           <div className="max-w-8xl mx-auto px-10">
             <Footer />
