@@ -33,22 +33,7 @@ const Header = () => {
 
 
 
-        <div className="md:hidden">
-          <IconButton
-            color="inherit"
-            aria-label="menu"
-            onClick={handleMenuOpen}
-            sx={{
-              '&:hover': {
-                backgroundColor: 'rgba(255, 255, 255, 0.2)',
-              },
-            }}
-          >
-            <MenuIcon />
-          </IconButton>
-     
-     
-        </div>
+       
       </Toolbar>
     </AppBar>
   );
