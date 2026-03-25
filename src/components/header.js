@@ -47,11 +47,7 @@ const Header = () => {
             <MenuIcon />
           </IconButton>
      
-          <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleMenuClose}>
-            <MenuItem className="text-white" onClick={handleMenuClose}>Home</MenuItem>
-            <MenuItem component={NavLink} to="/about" onClick={handleMenuClose}>About</MenuItem>
-            <MenuItem onClick={handleMenuClose}>Contact</MenuItem>
-          </Menu>
+     
         </div>
       </Toolbar>
     </AppBar>
